@@ -1,0 +1,122 @@
+
+    
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+          <h1> <span class="fab fa-asymmetrik"> </span> <span>FlatSpark</span>
+          </h1>
+        </div>
+        
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a routerLink="../start" class="">
+                <span class="fas fa-tachometer-alt">></span>
+                <span >Get Started</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="../layout">
+                <span >></span>
+                <span >Layout</span>
+              
+              </a>
+            </li>
+        
+            <li>
+              <a routerLink="../color">
+                <span >></span>
+              <span>Colours</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="../content">
+                <span >></span>
+                <span >Content</span>
+              
+              </a>
+            </li>
+            <li>
+              <a routerLink="../side">
+                <span>></span>
+                <span>Components</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="../spinner">
+                <span >></span>
+                <span>Spinners</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="../button">
+                <span >></span>
+                <span>Buttons</span>
+              </a>
+            </li>
+            
+            <li>
+              <a routerLink="../cards">
+                <span >></span>
+                <span>Cards</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="../alert">
+                <span >></span>
+                <span>Alert</span>
+              </a>
+            </li>
+             <li>
+              <a routerLink="../forms">
+                <span >></span>
+                <span>Forms</span>
+              </a>
+            </li>
+            
+          
+            <li>
+              <a routerLink="../utilities">
+                <span >></span>
+                <span>Utilities</span>
+              </a>
+            </li>
+         
+           
+            <li>
+              <a routerLink="../about">
+                <span >></span>
+                <span>About</span>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+    </div>    
+
+    <div class="main-content">
+      <header>
+        <h2>
+          <label for="nav-toggle">
+            <span >></span>
+          </label>
+          FlatSpark
+        </h2>
+
+        <div class="search-wrapper">
+          <input type="search" placeholder="Search..." />
+
+        </div>
+
+        <div class="user-wrapper">
+         <img src="https://source.unsplash.com/random/150x150?sig=14" width="40px" height="40px" alt="profile-img">
+      
+        </div>
+      </header>
+
+      <main>
+
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+

@@ -1,0 +1,195 @@
+<header class="header">
+  <h1 class="text-center py-3">BreakPoints</h1>
+</header>
+<main class="content">
+  <div class="responsive-test text-center py-3">
+    Check by resizing your browser window!
+  </div>
+  <hr class="mt-2 mb-2">
+
+  <h2>BreakPoints</h2>
+<pre class="shadow-xl codeeditor">
+
+    $breakpoints: (
+        "xs": 0,
+        "sm": 480px,
+        "md": 720px,
+        "lg": 960px,
+        "xl": 1200px,
+      );
+</pre>
+
+  <hr class="mt-2 mb-2">
+
+  <h2>Grid System</h2>
+
+  <div class="row gap-2 justify-center">
+    <div class="col-12-xs col-5-sm col-3-xl">
+      <div class="card">
+        <h3 class="card-title">Hello</h3>
+        <p class="card-body">Lorem ipsum, dolor sit amet consectetur</p>
+      </div>
+    </div>
+    <div class="col-12-xs col-5-sm col-3-xl">
+      <div class="card">
+        <h3 class="card-title">Hello</h3>
+        <p class="card-body">Lorem ipsum, dolor sit amet consectetur</p>
+      </div>
+    </div>
+    <div class="col-12-xs col-5-sm col-3-xl">
+      <div class="card">
+        <h3 class="card-title">Hello </h3>
+        <p class="card-body">Lorem ipsum, dolor sit amet consectetur.</p>
+      </div>
+    </div>
+    <div class="col-12-xs col-5-sm col-3-xl">
+      <div class="card">
+        <h3 class="card-title">Hello</h3>
+        <p class="card-body">
+          Lorem ipsum, dolor sit amet consectetur
+        </p>
+      </div>
+    </div>
+  </div>
+  <h3>code</h3>
+<pre class="shadow-xl codeeditor">
+
+&lt;div class="row gap-2 justify-center">
+&lt;div class="col-12-xs col-5-sm col-3-xl">
+  &lt;div class="card">
+      &lt;h3 class="card-title">
+          Hello
+      &lt;/h3>
+      &lt;p class="card-body">
+      Lorem ipsum, dolor sit 
+      amet consectetur 
+      adipisicing elit.
+      &lt;/p>
+  &lt;/div>
+&lt;/div>
+&lt;div class="col-12-xs col-5-sm col-3-xl">
+   &lt;div class="card">
+      &lt;h3 class="card-title">
+          Hello
+      &lt;/h3>
+      &lt;p class="card-body">
+      Lorem ipsum, dolor sit 
+      amet consectetur 
+      adipisicing elit.
+      &lt;/p>
+  &lt;/div>
+&lt;/div>
+&lt;div class="col-12-xs col-5-sm col-3-xl">
+  &lt;div class="card">
+      &lt;h3 class="card-title">
+          Hello 
+      &lt;/h3>
+      &lt;p class="card-body">
+      Lorem ipsum, dolor sit 
+      amet consectetur 
+      &lt;/p>
+  &lt;/div>
+&lt;/div>
+&lt;div class="col-12-xs col-5-sm col-3-xl">
+  &lt;div class="card">
+       &lt;h3 class="card-title">
+          Hello
+      &lt;/h3>
+      &lt;p class="card-body">
+      Lorem ipsum, dolor sit 
+      amet consectetur 
+      &lt;/p>
+  &lt;/div>
+&lt;/div>
+&lt;/div>
+  </pre>
+<!-- container -->
+
+<h2>Container SIzes</h2>
+
+  <div class="container-xs border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+  </div>
+
+  <div class="container-sm border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+
+  </div>
+
+  <div class="container-md border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+
+  </div>
+
+  <div class="container-lg border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+
+  </div>
+
+  <div class="container-xl border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+
+  </div>
+
+  <h3>code</h3>
+<pre class="shadow-xl codeeditor">
+
+
+&lt;div class="container-xs border-1">
+      Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Fugit quod,
+      voluptatem illo delectus
+      distinctio atque quae
+&lt;/div>
+  
+&lt;div class="container-sm border-1">
+    Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Fugit quod,
+    voluptatem illo delectus
+    distinctio atque quae  
+&lt;/div>
+  
+&lt;div class="container-md border-1">
+    Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Fugit quod,
+    voluptatem illo delectus
+    distinctio atque quae  
+&lt;/div>
+  
+&lt;div class="container-lg border-1">
+    Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Fugit quod,
+    voluptatem illo delectus
+    distinctio atque quae  
+&lt;/div>
+  
+&lt;div class="container-xl border-1">
+    Lorem ipsum dolor sit amet consectetur
+    adipisicing elit. Fugit quod,
+    voluptatem illo delectus
+    distinctio atque quae  
+&lt;/div> 
+  </pre>
+  <h2>Container Fluid</h2>
+  <div class="container-fluid border-1 mt-1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod, voluptatem illo delectus distinctio atque quae
+    excepturi laboriosam iste fuga, officiis non id omnis ea a commodi, sint unde quasi!
+  </div>
+  <h3>code</h3>
+  <pre class="shadow-xl codeeditor">
+&lt;div class="container-fluid border-1">
+  Lorem ipsum dolor sit amet consectetur
+  adipisicing elit. Fugit quod,
+  voluptatem illo delectus
+  distinctio atque quae  
+&lt;/div>
+  </pre>
+</main>
+<footer class="footer text-center py-3">
+  <p>&copy; 2024 Breakpoint Example</p>
+</footer>

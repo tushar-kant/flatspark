@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "flatspark/dist/index.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.codeeditor{
+    background-color: rgb(12, 5, 39); /* Light gray background */
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    line-height: 1.5; /* Improved readability */
+    color: #ffff; /* Text color */
+}
